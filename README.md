@@ -49,7 +49,7 @@
 
 # --- Execução como Usuário Normal ----
 
-![execução usuário normal]('Usuário normal.png')
+![execução usuário normal](Usuário normal.png)
 
 # --- Execução como root (sudo) -----
 
@@ -57,4 +57,4 @@
 
 # --- Visualizção do log Gerado ----
 
-![log gerado]('Visualisado o Log.png')
+![log gerado](Visualisado o Log.png)

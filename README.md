@@ -41,20 +41,25 @@
 
 # --- Estrutura de arquivos -----
 
-![estrutura arquivos](Estrura-do-arquivo.png)
+![estrutura arquivos](imagens/v1/estrutura_arquivos.png)
 
 # --- Conteúdo do script 'check.py' ----
 
-![Execução](imagens/v1/Conteúdo do Script.png)
+![conteudo do script](imagens/v1/checkpy_codigo.png)
 
 # --- Execução como Usuário Normal ----
 
-![execução usuário normal](Usuário normal.png)
+![execucao usuario normal](imagens/v1/usuario_normal.png)
 
 # --- Execução como root (sudo) -----
 
-![execução root](root.png)
+![execucao root](imagens/v1/execucao_root.png)
 
-# --- Visualizção do log Gerado ----
+# --- Visualização do log Gerado ----
 
-![log gerado](Visualisado o Log.png)
+![log gerado](imagens/v1/log_gerado.png)
+
+# --- Estrutura com o comando tree ----
+
+![estrutura tree](imagens/v1/estrutura_tree.png)
+

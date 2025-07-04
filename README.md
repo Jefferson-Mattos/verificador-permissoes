@@ -45,8 +45,7 @@
 
 # --- Conteúdo do script 'check.py' ----
 
-![código do check.py](imagens/v1
-/Conteúdo do Script.png)
+![Execução](imagens/v1/Conteúdo do Script.png)
 
 # --- Execução como Usuário Normal ----
 

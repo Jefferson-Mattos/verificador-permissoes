@@ -34,3 +34,27 @@
 #   Você vai ver algo como:
 
 #   [2025-07-04 11:30:12] Script execultado por UID 1000 (sem permissão)
+
+# --- Execução Real - versão 1 ------
+
+# imagens tiradas durante a execução do primeiro projeto.
+
+# --- Estrutura de arquivos -----
+
+![estrutura arquivos](Estrura-do-arquivo.png)
+
+# --- Conteúdo do script 'check.py' ----
+
+![código do check.py]('Conteúdo do Script.png')
+
+# --- Execução como Usuário Normal ----
+
+![execução usuário normal]('Usuário normal.png')
+
+# --- Execução como root (sudo) -----
+
+![execução root](root.png)
+
+# --- Visualizção do log Gerado ----
+
+![log gerado]('Visualisado o Log.png')

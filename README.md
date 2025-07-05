@@ -4,13 +4,14 @@
 
 # ---- Objetivo ------
 
-# Este projeto fornece um script robusto para verificar se um usuário possui privilégios de administrativos (root) e registra cada execução em um log. A nova versão permite especificar dinamicamente o nome do arquivo de log, tornando o script mais reutilizável e adaptável.
+# Este projeto fornece um script robusto para verificar se um usuário possui privilégios de administrativos (root) e registra cada execução em um log e json. A nova versão permite especificar dinamicamente o nome do arquivo de log, tornando o script mais reutilizável e adaptável.
 
 # ---- Tecnologias Ultilizadas -----
 
 # - shell script (bash): usado como ponto de entrada para orquestrar a execução.
 # - Python 3: Utilizado para a lógica principal de verificação de UID e escrita do log.
 # - Log Dinâmico: Nome do log pode ser passado por argumento
+# - Json: Manipulação de argumentos CLI
 
 # ---- Como Usar -----
 
@@ -68,6 +69,34 @@
 # --- Estrutura com o comando tree ----
 
 ![estrutura tree](imagens/v1/estrutura_tree.png)
+
+# --- Execução Real - versão 2 ------
+
+# imagens tiradas durante a execução do versão 2 do projeto.
+
+# ------ Estrutura de Arquivos -----
+
+![estrutura arquivos](imagens/v2/estrutura_arquivos.png)
+
+# ------ Conteúdo do Script `check.py` ----
+
+![conteúdo do script](imagens/v2/checkpy_codigo.png)
+
+# ------ Execução como Usuário Normal -----
+
+![usuário normal](imagens/v2/usuario_normal.png)
+
+# ------ Execução como root (sudo) ------
+
+![execução root](imagens/v2/execucao_root.png)
+
+# ------ Log Gerado -----
+
+![log gerado](imagens/v2/log_gerado.png)
+
+# ------ Estrutura com `tree` ------
+
+![estrutura tree](imagens/v2/estrutura_tree.png)
 
 # --- Licença ---
 

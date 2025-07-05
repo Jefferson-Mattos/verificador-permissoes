@@ -1,14 +1,16 @@
-# ---- Projeto: Verificador de Permissões com log de Execução _____
+# ---- Projeto: Verificador de Permissões com log de Execução - Versão 2 _____
+
+# Versão atual: Refatorada para ser mais proficional, reutilizável e flexível
 
 # ---- Objetivo ------
 
-# Este projeto fornece um script simples e robusto para verificar se um usuário possui privilégios de administrador (root) antes de execultar uma terefa crítica.
-# Cada verificação é registrada em um arquivo de log ('registro.log') para fins de auditoria e segurança.
+# Este projeto fornece um script robusto para verificar se um usuário possui privilégios de administrativos (root) e registra cada execução em um log. A nova versão permite especificar dinamicamente o nome do arquivo de log, tornando o script mais reutilizável e adaptável.
 
 # ---- Tecnologias Ultilizadas -----
 
 # - shell script (bash): usado como ponto de entrada para orquestrar a execução.
 # - Python 3: Utilizado para a lógica principal de verificação de UID e escrita do log.
+# - Log Dinâmico: Nome do log pode ser passado por argumento
 
 # ---- Como Usar -----
 
@@ -30,6 +32,10 @@
 # 3. E se quiser ver o histórico:
 
 #   cat registro.log
+
+#   você pode mudar o nome do arquivo de log editando o check_use.sh ou passando manualmente:
+
+#   python3 check.py "meu_log_personalizado.log"
 
 #   Você vai ver algo como:
 
@@ -63,3 +69,6 @@
 
 ![estrutura tree](imagens/v1/estrutura_tree.png)
 
+# --- Licença ---
+
+# MIT- Sinta-se livre para usar, modificar e contribuir! 
